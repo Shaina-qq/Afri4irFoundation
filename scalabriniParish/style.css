@@ -1,0 +1,37 @@
+body{
+    background-color: #F1F0E4;
+}
+/* Navbar container */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 20px; */
+}
+
+.home-icon{
+    height: 200px;
+    width: 400px;
+}
+/* Menu list */
+.nav-links{
+    display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* Menu items list*/
+.nav-links li{
+   margin: 45px; 
+ } 
+
+/* Menu links style */
+
+.nav-links a{
+    text-decoration: none;
+    color: #000;
+     font: weight 6px;
+    font-size: 25px;
+    font-family: 'cinzel'; 
+    padding: 10px;
+}
