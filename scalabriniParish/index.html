@@ -2,43 +2,62 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0
-    
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>St. Scalabrini Parish</title>
 </head>
 
 <body>
-    <!-- menu bar -->
+    <!-- Navbar -->
     <nav class="navbar">
-        <!-- logo image link -->
 
-        <!-- Hamburger button (hidden by default)-->
-       
+        <!-- Logo / Home link -->
+        <a href="index.html" class="home-link">
+            <img src="images/stscalabrinilogo.png" class="home-icon" alt="Parish Icon">
+        </a>
 
-           
-        <a href="index.html" class="home-link"><img src="images/stscalabrinilogo.png" class="home-icon" alt="ParishIcon"></a>
         <!-- Menu links -->
         <ul class="nav-links">
- 
+            <!-- Close button for mobile menu -->
+            <li class="close-btn">✕</li>
+
             <li><a href="massTimes.html">Mass Times</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="sacraments.html">Sacraments</a></li>
             <li><a href="contactus.html">Contact Us</a></li>
-
             <li>
-                <div id="donate button">
-                    <a href="#building fund ">Church Building Fund</a>
+
+                <div id="donate-button">
+                    <a href="#building-fund">Church Building Fund</a>
                 </div>
             </li>
+
         </ul>
-         <button class="hamburger" aria-label="Toggle menu">☰</button>
+
+        <!-- Hamburger button (mobile only) -->
+        <button class="hamburger" aria-label="Toggle menu">☰</button>
     </nav>
 
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="images/stscalabrini.JPG" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/oldChurch1.JPG" style="width:100%">
+        </div>
 
 
-    <script src="script.js"></script>
+
+        <!-- Navigation dots -->
+        <div class="dot-container">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            
+        </div>
+    </div>
+        <script src="script.js"></script>
 </body>
 
 </html>
