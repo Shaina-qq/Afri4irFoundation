@@ -14,13 +14,14 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  border: 6px solid black;
+  /* border: 6px solid black; */
 }
 
 .home-icon {
   height: 150px;
   width: auto;
   display: block;
+
 }
 
 .nav-links {
@@ -28,14 +29,14 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-  border: 6px solid black;
+  /* border: 6px solid black; */
   align-items: center;
   justify-content: center;
 }
 
 .nav-links li {
   margin: 2em;
-  border: 6px solid black;
+  /* border: 6px solid black; */
 }
 
 .nav-links a {
@@ -79,7 +80,7 @@ body {
   position: relative;
   width: 100vw;
   height: 650px;
-  border: 6px solid black;
+  /* border: 6px solid black; */
   overflow: hidden;
   z-index: 1;
 }
@@ -127,15 +128,16 @@ body {
   background-color: #717171;
 }
 
+
 /* ========== WELCOME MESSAGE ========== */
-.welcome-message {
+.welcome-mes sage {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 2%;
   text-align: left;
   color: white;
   z-index: 2;
-  border: 6px solid black;
+  /* border: 6px solid black; */
   margin: 0;
   padding: 0;
 }
@@ -144,7 +146,7 @@ body {
   font-size: 23px;
   margin: 0;
   padding: 0;
-  border: 6px solid black;
+  /* border: 6px solid black; */
   font-family: 'Cormorant Garamond','Times New Roman', serif; 
 }
 
@@ -155,7 +157,7 @@ body {
   padding: 0;
   color: white;
   background: rgba(128, 0,128, 0.5);
-  border: 6px solid black;
+  /* border: 6px solid black; */
   font-family: 'Cormorant Garamond','Times New Roman', serif; 
 
 
@@ -166,7 +168,7 @@ body {
   padding: 0;
   color: white;
   background: rgba(128, 0,128, 0.5);
-  border: 6px solid black;
+  /* border: 6px solid black; */
     font-family: 'Cormorant Garamond','Times New Roman', serif; 
 }
 
@@ -255,7 +257,7 @@ body {
   height: 500px;        /* adjust as needed */
   text-align: left;
   margin: 80px 0;
-  border: 6px solid black;
+  /* border: 6px solid black; */
   background: #F1F0E4;
 }
 
@@ -286,7 +288,8 @@ body {
   font-weight: 100;
   margin: 010px 10px 10px 10px;
   font-family: 'Cormorant Garamond','Times New Roman', serif;
-
+  padding: 0px 50px 0px 50px;
+  /* border: 6px solid black; */
 
   
 
@@ -305,34 +308,23 @@ body {
 
 /* ========== RESPONSIVE BREAKPOINTS ========== */
 
-/* --- Laptops/Tablets (768px and below) --- */
-@media (max-width: 768px) {
-  .navbar {
-    padding: 8px 16px;
-  }
-
-  .nav-links li {
-    margin: 1.5em;
-  }
-
-  .welcome-message .big-text {
-    font-size: 40px;
-  
-  }
-  .welcome-message .big-text2 {
-    font-size: 35px;
-  }
-}
-
 
 /* --- Mobile (400px and below) --- */
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   /* Navbar */
   .home-icon{
-    height: 120px;
-    width: auto;
-    border: 6px solid black;
+    height: auto;
+    width: 200px;
+    padding: 0px !important;
+    margin: 10px 0px 1px 0px !important;
+    /* border: 6px solid black; */
 
+  }
+  .home-icon img{
+    object-fit: contain;
+    padding: 0px;
+    margin: 0px;
+    /* border: 6px solid rgb(155, 40, 40); */
   }
   .hamburger {
     display: block;
@@ -443,7 +435,61 @@ body {
     font-size: 14px;  
     color: #000000;
     font-weight: 500;
+  }
+    /* donation section  */
+    
+  .donation-section {
+    flex-direction: column;   /* stack instead of side-by-side */
+    height: auto;             /* let it grow naturally */
+  }
 
+  .donation-prompt {
+    padding: 20px 15px;       /* smaller padding */
+    text-align: center;       /* center text for mobile */
+  }
 
+  .donation-prompt h1 {
+    font-size: 36px;          /* smaller headline */
+    line-height: 1.2;
+  }
+
+  .donation-prompt p {
+    font-size: 16px;          /* smaller body text */
+    padding: 0 20px;          /* reduce side padding */
+  }
+
+  .donation-image {
+    order: -1;                /* move image above text (optional) */
+    height: 250px;            /* give a fixed height for image */
+  }
+
+  .donation-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .donate-button a{
+  display: inline-block;
+  background-color: #5C1F5D;   /* church purple */
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Cormorant Garamond','Times New Roman', serif;
+  padding: 15px 30px;
+  border-radius: 50px;         /* pill-shape */
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
+
+.donate-button a:hover {
+  background-color: #7D2A7F;   /* lighter purple on hover */
+  transform: translateY(-2px); /* subtle lift effect */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+
+
+
 }
