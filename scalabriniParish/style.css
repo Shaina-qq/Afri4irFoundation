@@ -351,9 +351,9 @@ body {
 /* ========== EXPLORE THE PARISH ========== */
 
 .explore-section{ 
-  border: 6px solid black;
+  /* border: 6px solid black; */
   padding: 0px;
-  margin: 150px 0px;
+  margin: 120px 0px;
   text-align: center;
 }
 .explore-section h1{ 
@@ -366,13 +366,22 @@ body {
     /* border: 6px solid black; */
     font-family: 'Cormorant Garamond', 'Times New Roman', serif;
 }
+.explore-section p{ 
+  font-size: 35px;
+    font-weight: 100;
+    margin: 30px 0 10px 0;
+    padding: 0;
+    color: #000000;
+    /* border: 6px solid black; */
+    font-family: "Monsieur La Doulaise", cursive;
+}
 .explore-buttons { 
   text-align: center;
-  margin: 40px 0 80px 0;
+  margin: 80px 0 80px 0;
   /* border:6px solid rgb(250, 248, 248); */
   display: flex;
-  justify-content: center;
-  gap: 40px;
+  justify-content: space-around;
+  gap: 20px;
   
 }
 
@@ -384,11 +393,11 @@ body {
   background-color: #5C1F5D;
   /* church purple */
 
-  width: 70px;              /* shorter width */
+  width: 140px;              /* shorter width */
   height: 190px; 
 
   color: #fff;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 100;
   font-family: 'Cormorant Garamond', 'Times New Roman', serif;
   padding: 30px 30px;
