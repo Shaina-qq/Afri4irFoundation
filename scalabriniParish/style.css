@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: 'Cormorant Garamond','Times New Roman', serif; 
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
 }
 
 /* ========== NAVBAR ========== */
@@ -104,8 +104,13 @@ body {
 }
 
 @keyframes fadeEffect {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 /* Dots */
@@ -130,7 +135,7 @@ body {
 
 
 /* ========== WELCOME MESSAGE ========== */
-.welcome-mes sage {
+.welcome-message {
   position: absolute;
   top: 70%;
   left: 2%;
@@ -144,10 +149,10 @@ body {
 
 .welcome-message .small-text {
   font-size: 23px;
-  margin: 0;
+  margin: 0px 0 10px 0;
   padding: 0;
   /* border: 6px solid black; */
-  font-family: 'Cormorant Garamond','Times New Roman', serif; 
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
 }
 
 .welcome-message .big-text {
@@ -156,20 +161,21 @@ body {
   margin: 0;
   padding: 0;
   color: white;
-  background: rgba(128, 0,128, 0.5);
+  background: rgba(128, 0, 128, 0.5);
   /* border: 6px solid black; */
-  font-family: 'Cormorant Garamond','Times New Roman', serif; 
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
 
+}
 
-}.welcome-message .big-text2 {
+.welcome-message .big-text2 {
   font-size: 40px;
   font-weight: 100;
   margin: 0;
   padding: 0;
   color: white;
-  background: rgba(128, 0,128, 0.5);
+  background: rgba(128, 0, 128, 0.5);
   /* border: 6px solid black; */
-    font-family: 'Cormorant Garamond','Times New Roman', serif; 
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
 }
 
 /* ========== SCALABRINI QUOTE========== */
@@ -180,26 +186,27 @@ body {
   padding: 20px 0 20px 0;
   /* border: 6px solid black; */
   color: #5C1F5D;
-  font-family: 'Cormorant Garamond','Times New Roman', serif; 
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
   font-weight: 100;
 }
 
-.Scalabrini-quote h1{
+.Scalabrini-quote h1 {
   font-size: 50px;
   font-weight: 100;
   color: #5C1F5D;
-  font-family: 'Cormorant Garamond','Times New Roman', serif; 
-  margin: 0; 
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  margin: 0;
   padding: 0;
-  
+
 
 }
-.Scalabrini-quote p{
+
+.Scalabrini-quote p {
   font-size: 15px;
   color: #040404;
-  margin: 9px 0 9px 0 ;
+  margin: 9px 0 9px 0;
   padding: 0;
-  
+
 }
 
 
@@ -212,10 +219,10 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  
+
   font-family: 'Cormorant Garamond', serif;
   padding: 0px;
-  margin:0px;
+  margin: 0px;
 }
 
 .schedule-item h2 {
@@ -224,9 +231,9 @@ body {
   margin: 0;
   font-size: 50px;
   padding: 0px;
-  margin:0px;
+  margin: 0px;
   font-weight: 100;
-  
+
 }
 
 .schedule-item p {
@@ -236,25 +243,30 @@ body {
   margin: 5px 0 0 0;
   font-weight: 300;
   padding: 0px;
-  margin:0px;
-  
+  margin: 0px;
+
 
 }
 
 .divider {
-  width: 2px;             /* thickness of vertical line */
-  background: #5C1F5D;    /* line color */
-  height: 60px;            /* line height (matches content) */
+  width: 2px;
+  /* thickness of vertical line */
+  background: #5C1F5D;
+  /* line color */
+  height: 60px;
+  /* line height (matches content) */
   margin: 90px;
-            /* space around line */
+  /* space around line */
 }
 
 /* ========== DONATIONS========== */
 
 .donation-section {
   display: flex;
-  width: 100%;          /* full container width */
-  height: 500px;        /* adjust as needed */
+  width: 100%;
+  /* full container width */
+  height: 500px;
+  /* adjust as needed */
   text-align: left;
   margin: 80px 0;
   /* border: 6px solid black; */
@@ -263,56 +275,146 @@ body {
 
 /* Text section */
 .donation-prompt {
-  flex: 1;               /* take 50% of space */
+  flex: 1;
+  /* take 50% of space */
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* vertically center text */
+  justify-content: center;
+  /* vertically center text */
   background-color: #5C1F5D;
-  }
+}
+
 .donation-prompt h1 {
   font-size: 60px;
   text-align: center;
   margin-bottom: 20px;
   font-weight: 100;
   color: white;
-  font-family: 'Cormorant Garamond','Times New Roman', serif;
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
 
 
 }
 
-.donation-prompt p{
+.donation-prompt p {
   color: white;
   font-size: 20px;
   text-align: center;
   font-weight: 100;
   margin: 010px 10px 10px 10px;
-  font-family: 'Cormorant Garamond','Times New Roman', serif;
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
   padding: 0px 50px 0px 50px;
   /* border: 6px solid black; */
 
-  
+
 
 }
 
 /* Image section */
 .donation-image {
-  flex: 1;               /* take 50% of space */
+  flex: 1;
+  /* take 50% of space */
 }
 
 .donation-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;     /* ensures the image fills container without distortion */
+  object-fit: cover;
+  /* ensures the image fills container without distortion */
 }
+
+.donate-button {
+  text-align: center;
+  margin-top: 10px;
+  /* border:6px solid rgb(250, 248, 248); */
+ 
+  
+}
+ .donate-button a {
+  display: inline-block;
+  background-color: #5C1F5D;
+  /* church purple */
+  color: #fff;
+  font-size: 24px;
+  font-weight: 100;
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  padding: 10px 30px;
+  border-radius: 50px;
+  /* pill-shape */
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  border: 2px solid #fff;
+ 
+} 
+
+/* ========== EXPLORE THE PARISH ========== */
+
+.explore-section{ 
+  border: 6px solid black;
+  padding: 0px;
+  margin: 150px 0px;
+  text-align: center;
+}
+.explore-section h1{ 
+  font-size: 60px;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    color: #5C1F5D;
+   
+    /* border: 6px solid black; */
+    font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+}
+.explore-buttons { 
+  text-align: center;
+  margin: 40px 0 80px 0;
+  /* border:6px solid rgb(250, 248, 248); */
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  
+}
+
+.explore-buttons a{ 
+  /* border: 6px solid rgb(177, 36, 36); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5C1F5D;
+  /* church purple */
+
+  width: 70px;              /* shorter width */
+  height: 190px; 
+
+  color: #fff;
+  font-size: 24px;
+  font-weight: 100;
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  padding: 30px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+  
+  flex-wrap: wrap;
+/* flex: 1 1 200px; */
+/* max-width: 250px; */
+
+ 
+
+
+  
+}
+
 
 /* ========== RESPONSIVE BREAKPOINTS ========== */
 
 
 /* --- Mobile (400px and below) --- */
 @media (max-width: 768px) {
+
   /* Navbar */
-  .home-icon{
+  .home-icon {
     height: auto;
     width: 200px;
     padding: 0px !important;
@@ -320,12 +422,14 @@ body {
     /* border: 6px solid black; */
 
   }
-  .home-icon img{
+
+  .home-icon img {
     object-fit: contain;
     padding: 0px;
     margin: 0px;
     /* border: 6px solid rgb(155, 40, 40); */
   }
+
   .hamburger {
     display: block;
     font-size: 38px;
@@ -336,8 +440,10 @@ body {
     display: none;
     flex-direction: column;
     position: fixed;
-    top: 0; left: 0;
-    width: 100vw; height: 100vh;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
     background: #5C1F5D;
     justify-content: center;
     align-items: center;
@@ -361,7 +467,8 @@ body {
   .nav-links .close-btn {
     display: block;
     position: absolute;
-    top: 40px; right: 40px;
+    top: 40px;
+    right: 40px;
     font-size: 30px;
     cursor: pointer;
     color: #f7cc8d;
@@ -377,23 +484,26 @@ body {
   }
 
   /* Welcome text */
-  .welcome-message .small-text{
+  .welcome-message .small-text {
     font-size: 18px !important;
     font-weight: bold !important;
   }
+
   .welcome-message .big-text {
     font-size: 30px !important;
     font-weight: 100 !important;
-    font-family: 'Cormorant Garamond','Times New Roman', serif; 
+    font-family: 'Cormorant Garamond', 'Times New Roman', serif;
   }
+
   .welcome-message .big-text2 {
     font-size: 15px !important;
     font-weight: 100 !important;
-    font-family: 'Cormorant Garamond','Times New Roman', serif; 
+    font-family: 'Cormorant Garamond', 'Times New Roman', serif;
 
   }
+
   /* Scalabrini quote */
-  .Scalabrini-quote{
+  .Scalabrini-quote {
     margin-top: 78px;
     margin-bottom: 50px;
     padding: 5px;
@@ -401,66 +511,81 @@ body {
 
 
   }
-  .Scalabrini-quote h1{
-    font-size: 30px!important;
-    font-weight: 500!important;
+
+  .Scalabrini-quote h1 {
+    font-size: 30px !important;
+    font-weight: 500 !important;
     margin: 0;
     padding: 0;
-    
-    
+
+
   }
-  .Scalabrini-quote p{
-    font-size: 10px!important;
-    font-weight: 500!important;
-    margin: 7px 0 7px 0 ;
+
+  .Scalabrini-quote p {
+    font-size: 10px !important;
+    font-weight: 500 !important;
+    margin: 7px 0 7px 0;
     padding: 0;
-    
+
   }
 
   /* IMPORTANT TIMES  */
   .schedule-container {
     flex-direction: column;
   }
+
   .divider {
     width: 80%;
     height: 2px;
     margin: 20px auto;
   }
+
   .schedule-item h2 {
     font-size: 30px;
     font-weight: 200;
   }
+
   .schedule-item p {
     margin-top: 7px;
-    font-size: 14px;  
+    font-size: 14px;
     color: #000000;
     font-weight: 500;
   }
-    /* donation section  */
-    
+
+  /* donation section  */
+
   .donation-section {
-    flex-direction: column;   /* stack instead of side-by-side */
-    height: auto;             /* let it grow naturally */
+    flex-direction: column;
+    /* stack instead of side-by-side */
+    height: auto;
+    /* let it grow naturally */
   }
 
   .donation-prompt {
-    padding: 20px 15px;       /* smaller padding */
-    text-align: center;       /* center text for mobile */
+    padding: 20px 15px;
+    /* smaller padding */
+    text-align: center;
+    /* center text for mobile */
   }
 
   .donation-prompt h1 {
-    font-size: 36px;          /* smaller headline */
+    font-size: 36px;
+    /* smaller headline */
     line-height: 1.2;
   }
 
   .donation-prompt p {
-    font-size: 16px;          /* smaller body text */
-    padding: 0 20px;          /* reduce side padding */
+    font-size: 16px;
+    /* smaller body text */
+    padding: 0 20px;
+    /* reduce side padding */
   }
 
   .donation-image {
-    order: -1;                /* move image above text (optional) */
-    height: 250px;            /* give a fixed height for image */
+    order: -1;
+    /* move image above text (optional) */
+    height: 250px;
+    /* give a fixed height for image */
   }
 
   .donation-image img {
@@ -469,27 +594,29 @@ body {
     object-fit: cover;
   }
 
-  .donate-button a{
-  display: inline-block;
-  background-color: #5C1F5D;   /* church purple */
-  color: #fff;
-  font-size: 20px;
-  font-weight: 600;
-  font-family: 'Cormorant Garamond','Times New Roman', serif;
-  padding: 15px 30px;
-  border-radius: 50px;         /* pill-shape */
-  text-decoration: none;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-}
+  .donate-button a {
+    display: inline-block;
+    background-color: #5C1F5D;
+    /* church purple */
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+    padding: 15px 30px;
+    border-radius: 50px;
+    /* pill-shape */
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 
-.donate-button a:hover {
-  background-color: #7D2A7F;   /* lighter purple on hover */
-  transform: translateY(-2px); /* subtle lift effect */
-  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
-}
+  }
+    .donate-button a:hover {
+      background-color: #7D2A7F;
+      /* lighter purple on hover */
+      transform: translateY(-2px);
+      /* subtle lift effect */
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
 
 
-
-
-}
+  }
