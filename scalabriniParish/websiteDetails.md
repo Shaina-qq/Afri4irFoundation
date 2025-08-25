@@ -18,3 +18,5 @@
     color: white;
     background: rgba(128, 0, 128, 0.5);
     font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+## cursive
+font-family: "Monsieur La Doulaise", cursive;

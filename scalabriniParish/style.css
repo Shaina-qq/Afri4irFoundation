@@ -377,13 +377,15 @@ body {
 }
 .explore-buttons { 
   text-align: center;
-  margin: 80px 0 80px 0;
+  margin: 80px 225px 0;
   /* border:6px solid rgb(250, 248, 248); */
   display: flex;
   justify-content: space-around;
   gap: 20px;
+
   
 }
+
 
 .explore-buttons a{ 
   /* border: 6px solid rgb(177, 36, 36); */
@@ -408,12 +410,131 @@ body {
   flex-wrap: wrap;
 /* flex: 1 1 200px; */
 /* max-width: 250px; */
-
- 
-
-
   
 }
+/* ========== Safeguarding ========== */
+
+.safeguard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 77px 77px;
+  padding: 77px;
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  font-size: 14px;
+  border-top: 2px solid #5C1F5D;
+  border-bottom: 2px solid #5C1F5D;
+  flex-direction: column;
+}
+
+.safeguard img {
+  height: 385.5px;
+  width: 426.8px;
+  margin-bottom: 71px;
+}
+.safeguard a {
+  color: black;
+  font-weight: 100;
+  margin-left: 15px;
+  text-align: center;
+  /* margin-bottom: 113px; */
+}
+/* ========== MAPS ========== */
+
+.maps{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0px ;
+  padding: 0px;
+  /* border: 6px solid black; */
+  height: 768px;
+}
+
+.maps-intro{
+  flex: 1;
+  /* border: 6px solid black; */
+  text-align: center;
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  padding: 0px;
+  background-color: #5C1F5D;
+  height: 100%;
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.maps-intro h1{
+  font-size: 180px;
+    font-weight: 100;
+    margin: 50px;
+    padding: 0;
+    color: white;
+    /* border: 6px solid black; */
+    
+   
+  font-family: 'Alex Brush', 'Brush Script MT', cursive;
+}
+
+.maps-intro p{
+  font-size: 20px;
+    font-weight: 100;
+    margin: 10px 0 10px 0;
+    padding: 0;
+    color: white;
+    /* border: 6px solid black; */
+    font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+}
+
+.maps-intro a{ 
+  
+  display: inline-block;
+  background-color: #5C1F5D;
+  /* church purple */
+  color: #fff;
+  font-size: 24px;
+  font-weight: 100;
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  padding: 10px 30px;
+  margin-top: 87px;
+  border-radius: 50px;
+  /* pill-shape */
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  border: 2px solid #fff;
+}
+
+
+
+.maps-image{
+  flex: 1;
+  /* border: 6px solid black; */
+  height: 768px;
+  display: flex;
+}
+
+.maps-image img{ 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* ========== FOOTER========== */
+.footer {
+  
+  
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  font-size: 18px;
+  margin-top: 47px;
+  height: 255px;
+}
+
 
 
 /* ========== RESPONSIVE BREAKPOINTS ========== */
@@ -627,5 +748,101 @@ body {
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     }
 
-
+  /* Explore the parish section */
+/* Explore Section */
+  /* ===== MOBILE RESPONSIVE (768px and below) ===== */
+@media (max-width: 768px) {
+  
+  /* Explore Section */
+  .explore-section {
+    margin: 60px 0;
+    padding: 0 10px;
   }
+
+  .explore-section h1 {
+    font-size: 36px;
+  }
+
+  .explore-section p {
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+  }
+
+  .explore-buttons {
+    flex-direction: column;
+    margin: 40px auto 0 auto;
+    gap: 15px;
+  }
+
+  .explore-buttons a {
+    width: 80%;
+    height: auto;
+    font-size: 16px;
+    padding: 20px 15px;
+  }
+
+  /* Safeguard Section */
+  .safeguard {
+    margin: 30px 10px;
+    padding: 30px 10px;
+  }
+
+  .safeguard img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .safeguard a {
+    margin-left: 0;
+    display: block;
+    margin-top: 10px;
+  }
+
+  /* Maps Section */
+  .maps {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .maps-intro {
+    padding: 20px 10px;
+    height: auto;
+    width: 100%;
+  }
+
+  .maps-intro h1 {
+    font-size: 72px;
+    margin: 20px 0;
+  }
+
+  .maps-intro p {
+    font-size: 16px;
+  }
+
+  .maps-intro a {
+    font-size: 18px;
+    padding: 8px 20px;
+    margin-top: 30px;
+  }
+
+  .maps-image {
+    width: 100%;
+    height: 300px; /* adjust as needed */
+    margin-top: 20px;
+  }
+
+  .maps-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Footer */
+  .footer {
+    font-size: 16px;
+    padding: 15px 5px;
+    height: auto;
+  }
+}
+}
