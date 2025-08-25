@@ -18,9 +18,10 @@ body {
 }
 
 .home-icon {
-  height: 150px;
-  width: auto;
+  height: auto;
+  max-width: 350px;
   display: block;
+  object-fit: contain;
 
 }
 
@@ -535,6 +536,31 @@ body {
   height: 255px;
 }
 
+.social-media {
+  margin: 30px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  
+
+}
+.social-media p{
+  font-size: 12px;
+  font-weight: 100;
+  color: #5C1F5D;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: black;
+
+}
+.vertical{ 
+  display: flex;
+  flex-direction: column;
+}
 
 
 /* ========== RESPONSIVE BREAKPOINTS ========== */
@@ -557,6 +583,7 @@ body {
     object-fit: contain;
     padding: 0px;
     margin: 0px;
+   
     /* border: 6px solid rgb(155, 40, 40); */
   }
 
