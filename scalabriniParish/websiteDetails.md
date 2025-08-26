@@ -20,3 +20,9 @@
     font-family: 'Cormorant Garamond', 'Times New Roman', serif;
 ## cursive
 font-family: "Monsieur La Doulaise", cursive;
+
+##alex brush
+h1, h2 {
+  font-family: 'Alex Brush', 'Brush Script MT', cursive;
+}
+live server - terminal: $ ifconfig | grep "inet "

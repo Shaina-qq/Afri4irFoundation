@@ -1,3 +1,4 @@
+
 /* ========== GLOBAL BASE STYLES (apply to all devices) ========== */
 body {
   background: #F1F0E4;
@@ -328,10 +329,11 @@ body {
   text-align: center;
   margin-top: 10px;
   /* border:6px solid rgb(250, 248, 248); */
- 
-  
+
+
 }
- .donate-button a {
+
+.donate-button a {
   display: inline-block;
   background-color: #5C1F5D;
   /* church purple */
@@ -346,37 +348,40 @@ body {
   transition: all 0.3s ease;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   border: 2px solid #fff;
- 
-} 
+
+}
 
 /* ========== EXPLORE THE PARISH ========== */
 
-.explore-section{ 
+.explore-section {
   /* border: 6px solid black; */
   padding: 0px;
   margin: 120px 0px;
   text-align: center;
 }
-.explore-section h1{ 
+
+.explore-section h1 {
   font-size: 60px;
-    font-weight: 100;
-    margin: 0;
-    padding: 0;
-    color: #5C1F5D;
-   
-    /* border: 6px solid black; */
-    font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  color: #5C1F5D;
+
+  /* border: 6px solid black; */
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
 }
-.explore-section p{ 
+
+.explore-section p {
   font-size: 35px;
-    font-weight: 100;
-    margin: 30px 0 10px 0;
-    padding: 0;
-    color: #000000;
-    /* border: 6px solid black; */
-    font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 100;
+  margin: 30px 0 10px 0;
+  padding: 0;
+  color: #000000;
+  /* border: 6px solid black; */
+  font-family: "Monsieur La Doulaise", cursive;
 }
-.explore-buttons { 
+
+.explore-buttons {
   text-align: center;
   margin: 80px 225px 0;
   /* border:6px solid rgb(250, 248, 248); */
@@ -384,11 +389,11 @@ body {
   justify-content: space-around;
   gap: 20px;
 
-  
+
 }
 
 
-.explore-buttons a{ 
+.explore-buttons a {
   /* border: 6px solid rgb(177, 36, 36); */
   display: flex;
   align-items: center;
@@ -396,8 +401,9 @@ body {
   background-color: #5C1F5D;
   /* church purple */
 
-  width: 140px;              /* shorter width */
-  height: 190px; 
+  width: 140px;
+  /* shorter width */
+  height: 190px;
 
   color: #fff;
   font-size: 18px;
@@ -407,12 +413,13 @@ body {
   border-radius: 20px;
   text-decoration: none;
   text-align: center;
-  
+
   flex-wrap: wrap;
-/* flex: 1 1 200px; */
-/* max-width: 250px; */
-  
+  /* flex: 1 1 200px; */
+  /* max-width: 250px; */
+
 }
+
 /* ========== Safeguarding ========== */
 
 .safeguard {
@@ -433,6 +440,7 @@ body {
   width: 426.8px;
   margin-bottom: 71px;
 }
+
 .safeguard a {
   color: black;
   font-weight: 100;
@@ -440,20 +448,21 @@ body {
   text-align: center;
   /* margin-bottom: 113px; */
 }
+
 /* ========== MAPS ========== */
 
-.maps{
+.maps {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  margin: 0px ;
+  margin: 0px;
   padding: 0px;
   /* border: 6px solid black; */
   height: 768px;
 }
 
-.maps-intro{
+.maps-intro {
   flex: 1;
   /* border: 6px solid black; */
   text-align: center;
@@ -461,36 +470,37 @@ body {
   padding: 0px;
   background-color: #5C1F5D;
   height: 100%;
-  flex:1;
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.maps-intro h1{
+
+.maps-intro h1 {
   font-size: 180px;
-    font-weight: 100;
-    margin: 50px;
-    padding: 0;
-    color: white;
-    /* border: 6px solid black; */
-    
-   
+  font-weight: 100;
+  margin: 50px;
+  padding: 0;
+  color: white;
+  /* border: 6px solid black; */
+
+
   font-family: 'Alex Brush', 'Brush Script MT', cursive;
 }
 
-.maps-intro p{
+.maps-intro p {
   font-size: 20px;
-    font-weight: 100;
-    margin: 10px 0 10px 0;
-    padding: 0;
-    color: white;
-    /* border: 6px solid black; */
-    font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  font-weight: 100;
+  margin: 10px 0 10px 0;
+  padding: 0;
+  color: white;
+  /* border: 6px solid black; */
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
 }
 
-.maps-intro a{ 
-  
+.maps-intro a {
+
   display: inline-block;
   background-color: #5C1F5D;
   /* church purple */
@@ -510,14 +520,14 @@ body {
 
 
 
-.maps-image{
+.maps-image {
   flex: 1;
   /* border: 6px solid black; */
   height: 768px;
   display: flex;
 }
 
-.maps-image img{ 
+.maps-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -526,8 +536,8 @@ body {
 
 /* ========== FOOTER========== */
 .footer {
-  
-  
+
+
   text-align: center;
   padding: 20px 0;
   font-family: 'Cormorant Garamond', 'Times New Roman', serif;
@@ -544,10 +554,11 @@ body {
   gap: 20px;
   align-items: center;
   flex-wrap: wrap;
-  
+
 
 }
-.social-media p{
+
+.social-media p {
   font-size: 12px;
   font-weight: 100;
   color: #5C1F5D;
@@ -557,10 +568,50 @@ body {
   color: black;
 
 }
-.vertical{ 
+
+.vertical {
   display: flex;
   flex-direction: column;
 }
+
+
+/* Inner Pages */
+.page-header {
+  text-align: center;
+  background: #5C1F5D;
+  color: white;
+  padding: 80px 20px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.page-header h1 {
+  font-size: 60px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.page-header p {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.page-content {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.8;
+  font-family: 'Cormorant Garamond', serif;
+  color: #333;
+}
+
+.page-content h2 {
+  color: #5C1F5D;
+  margin-top: 40px;
+  font-size: 32px;
+  font-weight: 400;
+}
+
 
 
 /* ========== RESPONSIVE BREAKPOINTS ========== */
@@ -583,7 +634,7 @@ body {
     object-fit: contain;
     padding: 0px;
     margin: 0px;
-   
+
     /* border: 6px solid rgb(155, 40, 40); */
   }
 
@@ -767,19 +818,69 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 
   }
-    .donate-button a:hover {
-      background-color: #7D2A7F;
-      /* lighter purple on hover */
-      transform: translateY(-2px);
-      /* subtle lift effect */
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    }
 
-  /* Explore the parish section */
-/* Explore Section */
-  /* ===== MOBILE RESPONSIVE (768px and below) ===== */
-@media (max-width: 768px) {
-  
+  .donate-button a:hover {
+    background-color: #7D2A7F;
+    /* lighter purple on hover */
+    transform: translateY(-2px);
+    /* subtle lift effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Page header */
+  .page-header {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: #f8f8f8;
+  }
+
+  .page-header h1 {
+    font-size: 2.5rem;
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  .page-header p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+
+  /* Building Fund Images */
+  .building-images {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .fund-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+  }
+
+  /* Donation Instructions */
+  .donation-instructions {
+    padding: 2rem 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .donation-instructions h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .donation-box {
+    background: #fafafa;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+  }
+
+
+
   /* Explore Section */
   .explore-section {
     margin: 60px 0;
@@ -855,7 +956,8 @@ body {
 
   .maps-image {
     width: 100%;
-    height: 300px; /* adjust as needed */
+    height: 300px;
+    /* adjust as needed */
     margin-top: 20px;
   }
 
@@ -871,5 +973,4 @@ body {
     padding: 15px 5px;
     height: auto;
   }
-}
 }
