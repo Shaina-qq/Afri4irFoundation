@@ -22,6 +22,13 @@ closeBtn.addEventListener('click', () => {
     navLinks.classList.remove('show');
 });
 
+// Close menu when any nav link is clicked
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+        navLinks.classList.remove('show');
+    });
+});
+
 //slide show
 
 let slideIndex = 0; // keeps track of which slide is showing
@@ -46,5 +53,5 @@ function showSlides() {
 slides[slideIndex - 1].style.display = "block";
 dots[slideIndex - 1].classList.add("active");
 
-setTimeout(showSlides, 40000); // Change slide every 4 seconds 
+setTimeout(showSlides, 7000); // Change slide every 4 seconds 
 }

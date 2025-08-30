@@ -26,3 +26,6 @@ h1, h2 {
   font-family: 'Alex Brush', 'Brush Script MT', cursive;
 }
 live server - terminal: $ ifconfig | grep "inet "
+
+# colours
+ #5C1F5D
